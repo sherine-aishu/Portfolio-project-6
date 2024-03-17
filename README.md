@@ -54,7 +54,7 @@ Here we are going to deploy our application using EKS setup by managed nodes. We
                 
                 Step 4: Install eksctl
                 
-                Step 5: Create EKS using maganed nodes
+                Step 5: Create EKS using managed nodes
 
                 Step 6: Deploy your application and expose the same.
 
