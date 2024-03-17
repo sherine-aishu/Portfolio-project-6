@@ -23,21 +23,21 @@ EKS installation:
 **Project Overview**
 Here we are going to deploy our application using EKS setup by managed nodes. We are going to setup and access our EKS from an EC2-instance.
 
-**What is kubectl**
+**What is kubectl ?**
 
 	                This is a command-line tool for interacting with a Kubernetes cluster. 
 	                It communicates with the cluster’s control plane using the Kubernetes API.
 	                With kubectl, you can perform various operations like creating, updating, and deleting different Kubernetes resources (pods, services, deployments, etc.)
 	                It’s an essential tool for anyone working with Kubernetes.
 
-**aws-iam-authenticator**
+**What is aws-iam-authenticator ?**
 
 
 	                This is a tool that uses AWS Identity and Access Management (IAM) credentials to authenticate to a Kubernetes cluster. 
 	                It allows you to avoid having to manage a separate credential for Kubernetes access. 
 	                This tool is particularly useful if you’re an administrator running a Kubernetes cluster on AWS and you want to leverage IAM for access control.
 
-**eksctl**
+**What is eksctl ?**
 
 	                This is a simple command-line tool for creating and managing clusters on Amazon EKS. 
 	                It automates many tasks, such as creating a cluster with a single command. 
