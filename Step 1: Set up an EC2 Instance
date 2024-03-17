@@ -2,5 +2,5 @@ Set up an EC2 Instance and launch it in the same region where you are planning t
 
 Login to your instance
 
-Update your instance:
+# Update your instance:
 yum update -y
