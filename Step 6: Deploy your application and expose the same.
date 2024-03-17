@@ -22,6 +22,9 @@ spec:
         - containerPort: 80
 ********************************************************************************
 
+# Create the deployment:
+kubectl apply -f nginx-deployment.yaml 
+
 # Get pod details:
 kubectl get pods
 
@@ -41,6 +44,9 @@ spec:
   selector:
     app: nginx
 ********************************************************************************
+
+# Create the deployment:
+kubectl apply -f nginx-service.yaml 
 
 # Get service details:
 kubectl get services
