@@ -1,0 +1,6 @@
+# Access your application from browser
+curl a42e39ff4e2f7401f91f90cceb336b5a-11969629.ap-south-1.elb.amazonaws.com
+
+Here, *.elb.amazonaws.com is the url of your loadbalancer created as part of service creation.
+
+Note: Give it a minute or two for your loadbalancer to serve your nginx application.
